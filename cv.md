@@ -27,3 +27,18 @@ I believe that my ability to learn and acquire new skills will help me go this w
 ---
 
 ## Skills and Proficiency:
+
+* HTML, CSS
+* Git, GitHub
+* VS Code
+
+## Code example:
+
+---
+
+## Languages:
+
+* Russian - Native
+* Ukrainian - Native
+* Polish - B2+
+* English - Basic (in progres)
