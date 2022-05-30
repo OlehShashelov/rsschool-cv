@@ -1,4 +1,4 @@
-# [rsschool-cv](https://OlehShashelov.github.io/rsschool-cv/)
+# [rsschool-cv](https://OlehShashelov.github.io/rsschool-cv/cv)
 
 #  **Oleh Shashelov**
 
