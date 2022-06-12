@@ -1,46 +1,58 @@
 * {
-    color: rgb(17, 94, 94);
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    margin-left: 20%;
-    margin-right: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  margin-left: 0%;
+  margin-right: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid red
+}
 
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+.container {
+  max-width: 1440px;
+  margin: 0  auto;
+  border: 1px solid rgb(238, 255, 0)
 
-  .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+}
 
-  html {
-    scroll-behavior: smooth; 
-  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(130, 176, 206);
+   }
 
-  .nav-list {
-    list-style: none;
-  }
+html {
+  scroll-behavior: smooth; 
+  border: 1px solid rgb(0, 255, 251)
+}
 
-  .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-  }
+.nav-link {
+  padding: 0 65px;
+  line-height: 50px;
+  color: rgb(56, 43, 36);
+}
 
- img {
-     margin-left: 20%;
-     width: 121px;
-     height: 145px;
+img {
+   border-radius: 10px;
+   width: 220px;
+   height: 270px;
+   float: left;
+   
+}
 
- }
+.name {
+  font-size: 60px;
+  margin: 40px;
+  
+}
 
-
- 
+.FrontEnd {
+  margin: 40px;
+  font-size: 20px;
+  
+}
