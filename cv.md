@@ -43,4 +43,8 @@ I believe that my ability to learn and acquire new skills will help me go this w
 * Russian - Native
 * Ukrainian - Native
 * Polish - B2+
+rsschool-cv-html
 * English - Basic (in progres)
+=======
+* English - Basic (in progres)
+gh-pages
