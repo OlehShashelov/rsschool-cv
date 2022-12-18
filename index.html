@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="stylesheet" href="style.css">
+   <title>Oleh Shashelov</title>
 </head>
 <body>
-   <h1>Oleh Shashelov</h1>
+   <header class="container">
+       <nav>
+            <ul>
+                <li><a href="#">contacts info</a></li>
+                <li><a href="#">Briefly About Myself</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Skills and proficiency</a></li>
+                <li><a href="#">Code example</a></li>
+                <li><a href="#">Languages</a></li>
+            </ul>
+       </nav>
+    </header>
+
+    <main class="main__container">
+        <section class="main__section__name">
+            <div class="img"></div>
+            <div>
+                <h3>Oleh Shashelov</h3>
+                <h4>junior front-end developer</h4>
+            </div>
+        </section>
+        
+        <section class="main__section__info">
+
+            <div class="main__section__left">
+                <div class="main__section__box">
+                    <a href="#">Contact info</a>
+                    <p>Location: Poland, Gliwice</p>
+                    <p>Phone: +480000000000</p>
+                    <p>Mail: olehshashelov1992@gmail.com</p>
+                    <p>Telegram: @OlehShashelov</p>
+                    <p>GitHub: OlehShashelov</p>
+                </div>
+                <div class="main__section__box__two">
+                    <a href="#">Education</a>
+                    <p>Volodymyr Dahl East Ukrainian National University - Transport systems</p>
+                    <p>WSB Academy, logistics manager, master's degree</p>
+                </div>
+                <div class="main__section__box__three">
+                    <a href="#">Courses</a>
+                    <p>Coders Lab IT School - Tester Manual 16/05/2020</p>
+                    <p>Coders Lab IT School - Front-end</p>
+                    <p>RS School stage 0</p>
+                </div>
+            </div>
+
+            <div class="main__section__right">
+                <div class="main__section__box" >
+                    <a href="#">Briefly About Myself</a>
+                    <p>I started my career as an ordinary employee, but due to the fact that 
+                        I had free time and endless interest in everything new, I realized that 
+                        I could not sit still and began to study. After 2 years, I completed my master's 
+                        degree at the Higher School of Business, with knowledge of the Polish language, 
+                        I started a new course as a manual tester, after which I was promoted to the position 
+                        of a coach in the Learning department, which gave me even more opportunities for development. 
+                        Technology does not stand still and like many, I want to have an interesting job regardless of 
+                        my location. That is why at the moment I have started a new English course and a JS/Front-end course. 
+                        Stage 0 at RS School, the end of which will help me to move on. I believe that my ability to 
+                        learn and acquire new skills will help me go this way and become an experienced Frontend developer.</p>
+                </div>
+                <div class="main__section__box__two">
+                    <a href="#">Skills and proficiency</a>
+                    <p>HTML, CSS, VS Code, GitHub, Adobe, Figma</p>
+                </div>
+                <div class="main__section__box__three">
+                    <a href="#">Code example</a>
+                    <p>function factorial(n) {
+                        if(n < 0) return null;
+                        if (n <= 1) return 1;
+                        return n * factorial(n - 1);
+                    }
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__section__languages">
+                <a href="#">Languages</a>
+                <div class="box__language">
+                <p>Russian - Native</p>
+                <p>Ukrainian - Native</p>
+                <p>Polish - B2+</p>
+                <p>English - Basic (in progres)</p>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer__container">
+       <div class="footer__img">     
+           <p>&#169 2022 OlehShashelov </p>
+         </div>
+         <div>
+           <a href="https://rs.school/"><img src="./assets/img/LogoRS.png" alt="logoRsschool"></a>
+       </div>      
+
+    </footer>
 </body>
 </html>
