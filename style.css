@@ -78,9 +78,12 @@ li {
 }
 
 .img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: #a5a5a5;
+    background-image: url(./assets/img/OlegFoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50%;  
 }
 
